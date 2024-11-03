@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Document</title>
+</head>
+<style type="text/css">
+    *{
+        box-sizing: :border-box;
+    }
+    html,body{
+        margin: 0;
+        padding: 0;
+    }
+    .nav-bar{
+        background-color: lightblue;
+        width: 30%;
+        height: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        overflow-y: ;
+    }
+    .nav-bar a {
+        text-decoration: none;
+        color: black;
+        display: block;
+    }
+
+    .nav-bar > ul{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    .nav-bar > ul > li > a {
+        padding: 10px;
+        background: lightblue;
+    }
+    .nav-bar > ul > li > a:hover{
+        background: red;
+        color: aliceblue;
+    }
+    .nav-bar .active{
+        background: yellowgreen;
+        color: brown;
+    }
+    .nav-bar li {
+        border-bottom: 1px solid #333;
+    }
+    .nav-bar li:last-child{
+        border: none;
+    }
+    .content {
+        margin-left: 30%;
+        width: 70%;
+        padding: 15px;
+    }
+</style>
+<body>
+    <div class="nav-bar">  
+        <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Articles</a></li>
+        </ul>
+    </div>
+    <div class="contents">
+        <p>This is where the content of the page goes</p>
+        <div style="background: orangered;"></div>
+    </div>
+</body>
+</html>

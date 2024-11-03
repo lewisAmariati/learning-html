@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pagination</title>
+        <style type="text/css">
+            .pagination-container {
+                text-align: center;
+            }
+            .pagination{
+                display: inline-block;
+            }
+            .pagination li {
+                display: inline-block;
+            }
+            .pagination a {
+                float: left;
+                color: black;
+                transition-duration: 1s;
+                padding: 7px 14px;
+            }
+            .pagination a:hover{
+                background: blueviolet;
+                color: antiquewhite;
+            }
+            .active {
+                color: aquamarine;
+                background: red;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="Pagination-container">
+            <ul class="pagination">
+                <li><a href="#">[</a></li>
+                <li><a href="#" class="active">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">]</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
